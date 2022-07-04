@@ -1,0 +1,47 @@
+body {
+    padding-top: 0px;
+    background-color: rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+    padding-bottom: 2000px;
+}
+
+/*a {
+    color: rgb(111, 205, 255);
+}*/
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+    align-items: center;
+}
+
+
+
+header {
+    display: flex;
+    justify-content:space-between;
+    background-color: brown;
+    position:fixed;
+    right:20px;
+    top:20px;
+}
+
+header > button{
+    padding: 10px 40px;
+    font-size: 1.3em;
+}
+
+
+.looking-fine {
+    position:absolute;
+    position:fixed;
+
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    right: 0px;
+    bottom: 0px;
+
+    object-fit:cover;
+    opacity: 70%;
+}
