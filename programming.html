@@ -2,88 +2,111 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>Title</title>
+        <title>Flavio's Homepage</title>
         <link href="programming.css" rel="stylesheet">
         <link href="universal.css" rel="stylesheet">
     </head >
 
     <body class="entire_page"> <!--bgcolor="#000000"-->
-        <div class="header">
-            <div class="border-start"></div>
+        <header>
             <button class="element"><a href="index.html">Start</a></button>
-            <button class="element"><a href="lebenslauf.html">Lebenslauf</a></button>
-            <button class="element"><a href="noten.html">Noten</a></button>
+            <button class="element"><a href="lebenslauf.html">CV</a></button>
             <button class="element"><a href="programming.html">Programming</a></button>
-            <div class="border-end"></div>
-        </div>
+            <button class="element"><a href="noten.html">Grades</a></button>
+        </header>
+
+        
         <h1>My Journey Programming: </h1>
-
-        <h2>The time I fell in love: </h2>
-        <p>
-            I had never used a computer in my life until the pandemic came, when I was in the urgent need to  learn how to use one. <br>
-            I quickly learnt the basic functionality, and I discovered that they could be very fun, and I got interested in how they work. <br>
-            I decided to learn a Programming Language by my own, because my school didn't have  an informatics curriculum. <br>
-            Since that moment, I have been fascinated by them, and always keen to learn more about them. <br>
-            That is the reason why I am going to study Computer Science in a University. 
-        </p>
-
-        <h2>Programming Languages: </h2>
-        <ul>
-            <li>
-                Python: 
-            </li>
-            <p>
-                I have got a deep Python understanding, and have taken multiple courses on it. I am currently taking <br>
-                the free online Harvard Course CS50 AI with Python. I am very familiar with the syntax, to the point <br>
-                that I would be confortable coding without any assistance from Google. 
-            </p>
-            <li>
-                C#: 
-            </li>
-            <p>
-                I learnt this programming language in my Informatics class. My understanding is not that deep, and I have to look <br>
-                up a lot of syntax while Coding, I have not got any Personal Projects in C#. 
-            </p>
-            <li>
-                Wolfram Mathematica: 
-            </li>
-            <p>
-                I also learnt this language in my Informatics class. I am confortable writing easy scripts, but do not have <br>
-                a deep understanding of the language. 
-            </p>
-            <li>
-                HTML & CSS: 
-            </li>
-            <p>
-                Website Design and functionality, this Website is purely coded in HTML & CSS without <br>
-                help of any other software. 
-            </p>
-            <li>
-                Arduino - Raspberry Pi: 
-            </li>
-            <p>
-                Learnt because of my Rubik's cube solver project. 
-            </p>
-            <img src="cool_photos/Arduino.jpeg">
-            <li>
-                Blender:
-            </li>
-            <p>
-                Basic Modeling for my 3D-Printing projects. Learnt for my Rubik's cube solver project and the structure <br>
-                supporting the motors. 
-            </p>
-            <li>
-                SQL: 
-            </li>
-            <p>
-                Basic MySQL knowledge, creating and editing tables. Learnt to understand DBMS. 
-            </p>
-        </ul>
-
         
-        <img class="looking-fine" src="cool_photos/looking-fine.jpg">
-
-        Personal Projects: 
         
+        <div class="flex">
+            <h3>The time I fell in love: </h3>
+            <p>
+                I had never used a computer in my life until the pandemic came, when I was in the urgent need to  learn how to use one.
+                I quickly learnt the basic functionality, and I discovered that they could be very fun, and I got interested in how they work.
+                I decided to learn a Programming Language by my own, because my school didn't have  an informatics curriculum.
+                Since that moment, I have been fascinated by them, and always keen to learn more about them.
+                That is the reason why I am going to study Computer Science in a University. 
+            </p>
+        </div>
+
+        <div class="flex">
+            <h2>Programming Languages: </h2>
+        </div>
+
+        <div class="list-programming-languages">
+            <div class="flex">
+                <h3>&#8226; Python: </h3>
+                <p>
+                    I have got a deep Python understanding, and have taken multiple courses on it. I am currently taking
+                    the free online Harvard Course CS50 AI with Python. I am very familiar with the syntax, to the point
+                    that I would be confortable coding without any assistance from Google. 
+                </p>
+            </div>
+
+            <div class="flex">
+                <h3>&#8226; C#: </h3>
+                <p>
+                    I learnt this programming language in my Informatics class. My understanding is not that deep, and I have to look
+                    up a lot of syntax while Coding, I have not got any Personal Projects in C#. 
+                </p>
+            </div>
+
+            <div class="flex">
+                <h3>&#8226; Wolfram Mathematica: </h3>
+                <p>
+                    I also learnt this language in my Informatics class. I am confortable writing easy scripts, but do not have
+                    a deep understanding of the language. 
+                </p>
+            </div>
+
+            <div class="flex">
+                <h3>&#8226; HTML & CSS: </h3>
+                <p>
+                    Website Design and functionality, this Website is purely coded in HTML & CSS without help of any other software. 
+                </p>
+            </div>
+            
+            <div class="flex">
+                <h3>&#8226; Arduino - Raspberry Pi: </h3>
+                <p>
+                    Learnt because of my Rubik's cube solver project. 
+                </p>
+                <img id="working-raspberry" class="img-border" src="cool_photos/Arduino.jpeg">
+            </div>
+
+            <div class="flex">
+                <h3>&#8226; Blender:</h3>
+                <p>
+                    Basic Modeling for my 3D-Printing projects. Learnt for my Rubik's cube solver project and the structure
+                    supporting the motors. 
+                </p>
+            </div>
+
+            <div class="flex">
+                <h3>&#8226; SQL: </h3>
+                <p>
+                    Basic MySQL knowledge, creating and editing tables. Learnt to understand DBMS. 
+                </p>
+            </div>
+        </div>
+
+
+
+        <hr>
+
+        <div class="flex">
+            <!-- <h2>Personal Projects: </h2> -->
+            <h3>Rubik's Cube solver: </h3>
+            <p>
+                I have been working the last 6 Months on my Project to completely build a machine from 
+                scratch wich solves a Rubik's cube. I have written the entire code independantly. 
+            </p>
+        </div>
+
+
+        <fotter>
+            <img class="looking-fine" src="cool_photos/looking-fine.png">
+        </fotter>
     </body>
 </html>

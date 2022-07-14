@@ -1,4 +1,3 @@
-
 body > ul > li {
     font-size: 2em;
     padding-top: 1em;
@@ -19,4 +18,27 @@ td, th {
     border-width: 1px;
     padding: 8px;
     text-align:center;
+}
+
+
+div.flex {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+h3 {
+    font-size:2em;
+    margin-bottom:0;
+    text-align: center;
+}
+
+div.flex ul {
+    width: 50%;
+    margin-bottom:1em;
+    margin-top:0.5em;
+}
+
+div.flex {
+    font-size:1.2em;
 }
