@@ -1,0 +1,22 @@
+img {
+    width: 50%;
+}
+
+div.images div {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+
+h1 {
+    margin: 0.25em 0 0;
+}
+
+p {
+    max-width: 75%;
+    font-size:1.2em;
+    margin-bottom:1em;
+    margin-top:0.5em;
+}
